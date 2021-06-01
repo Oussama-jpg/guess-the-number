@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,600;0,700;1,600;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  color: white;
+  background: radial-gradient(
+    circle at 50% 10%,
+    hsl(214, 47%, 23%),
+    hsl(237, 49%, 15%)
+  );
+  font-family: "Barlow Semi Condensed";
+  min-height: 100vh;
+}
+
+#container {
+  padding: 50px 50px 30px 50px;
+  border-radius: 20px;
+  border: 3px solid white;
+  display: flex;
+  flex-direction: column;
+  margin: 20vh auto;
+  width: fit-content;
+}
+p {
+  margin: 10px;
+  text-align: center;
+  font-size: 2.5em;
+}
+h1 {
+  text-align: center;
+  font-size: 2.8em;
+}
+#userInput {
+  outline: none;
+  text-align: center;
+  color: white;
+  width: 200px;
+  height: 50px;
+  margin: auto;
+  font-size: 2.2em;
+  background-color: transparent;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+#form {
+  display: flex;
+  flex-direction: column;
+}
+button {
+  cursor: pointer;
+  font-size: 0.9em;
+  color: #fff;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  border-radius: 0.5em;
+  border: 2px solid hsl(0, 0%, 100%, 0.2);
+  background-color: transparent;
+  padding: 10px 25px 8px 25px;
+  margin: 20px auto;
+}
+button:hover {
+  border-color: white;
+}
+button:active {
+  transform: scale(0.9);
+}
+#retry {
+  display: none;
+}
+#outputText {
+  width: 600px;
+}

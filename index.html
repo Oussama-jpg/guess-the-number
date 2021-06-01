@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Devine le nombre</title>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Devine un chiffre entre 1 et <span id="test">100</span></h1>
+      <p id="outputText">Entre ton choix ci-dessous</p>
+      <form id="form">
+        <input type="number" id="userInput" />
+        <button type="submit" id="submit">Entrer</button>
+        <button id="retry" onClick="window.location.reload();">
+          Tu veux recommencer ?
+        </button>
+      </form>
+    </div>
+  </body>
+</html>
